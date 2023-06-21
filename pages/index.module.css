@@ -1,0 +1,39 @@
+.App {
+    text-align: center;
+  }
+  
+  form.test {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 400px; 
+    margin: auto;
+  }
+  
+  .imagePreview {
+    position: relative;
+    width: 200px;
+  }
+  
+  .imagePreview img {
+    width: 100%;
+  }
+  
+  .imagePreview button {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .button{
+    background-color: silver;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  /* form > * {
+    margin: 10px 0;
+  } */
+  
+  /* img {
+    max-width: 400px;
+    margin: auto;
+  } */
