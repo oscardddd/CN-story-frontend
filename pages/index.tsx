@@ -50,12 +50,13 @@ function Index() {
 				<input value={description} placeholder='Any comments?' onChange={e => setDescription(e.target.value)} type="text"></input>
 				<button className={styles.button} type="submit">Submit</button>
 			</form>
+			<img src='http://localhost:4000/user/image/14a11f4c57c1cb07651e9524682ab851'></img>
 	
-			{ images.map( image => (
+			{/* { images.map( image => (
 			<div key={image}>
 				<img src={image}></img>
 			</div>
-			))}
+			))} */}
   
 	  	</div>
 		</Page>
